@@ -432,7 +432,7 @@
   (gr_text "GND DETECT" (at 118.102286 83.82) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "VCC RX" (at 119.888 81.28) (layer F.SilkS)
+  (gr_text "VCP RX" (at 119.888 81.28) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "VCP TX" (at 120.007048 78.74) (layer F.SilkS)
@@ -527,7 +527,7 @@
   (segment (start 101.323971 82.826029) (end 96.52 87.63) (width 0.4) (layer B.Cu) (net 14))
   (segment (start 101.323971 70.429299) (end 101.323971 82.826029) (width 0.4) (layer B.Cu) (net 14))
 
-  (zone (net 11) (net_name T_VCC) (layer F.Cu) (tstamp 6022D983) (hatch edge 0.508)
+  (zone (net 11) (net_name T_VCC) (layer F.Cu) (tstamp 6195240B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
