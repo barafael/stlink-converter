@@ -46,17 +46,6 @@ F 3 "~" H 2990 3790 50  0001 C CNN
 	1    2990 3790
 	0    1    1    0   
 $EndComp
-$Comp
-L custom_components:PUSH_BUTTON S1
-U 1 1 6022CBFE
-P 5400 3940
-F 0 "S1" H 5728 4201 60  0000 L CNN
-F 1 "PUSH_BUTTON" H 5728 4095 60  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 5400 3940 60  0001 C CNN
-F 3 "" H 5400 3940 60  0001 C CNN
-	1    5400 3940
-	1    0    0    -1  
-$EndComp
 Text GLabel 1500 2350 0    50   Input ~ 0
 T_VCC
 $Comp
@@ -235,18 +224,18 @@ F 3 "" H 4470 3060 50  0001 C CNN
 	1    4470 3060
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5200 3440 1    50   Input ~ 0
+Text GLabel 5200 3600 0    50   Input ~ 0
 T_NRST
 $Comp
 L power:GND #PWR013
 U 1 1 60239CF4
-P 5600 3440
-F 0 "#PWR013" H 5600 3190 50  0001 C CNN
-F 1 "GND" H 5605 3267 50  0000 C CNN
-F 2 "" H 5600 3440 50  0001 C CNN
-F 3 "" H 5600 3440 50  0001 C CNN
-	1    5600 3440
-	-1   0    0    1   
+P 5600 3600
+F 0 "#PWR013" H 5600 3350 50  0001 C CNN
+F 1 "GND" H 5605 3427 50  0000 C CNN
+F 2 "" H 5600 3600 50  0001 C CNN
+F 3 "" H 5600 3600 50  0001 C CNN
+	1    5600 3600
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -268,6 +257,17 @@ F 1 "MountingHole" H 2680 1365 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3mm" H 2580 1410 50  0001 C CNN
 F 3 "~" H 2580 1410 50  0001 C CNN
 	1    2580 1410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6194D87A
+P 5400 3600
+F 0 "SW1" H 5400 3885 50  0000 C CNN
+F 1 "SW_Push" H 5400 3794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ" H 5400 3800 50  0001 C CNN
+F 3 "~" H 5400 3800 50  0001 C CNN
+	1    5400 3600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
